@@ -10,11 +10,11 @@
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: Theme Redefine
+  title: On My Life Road
   # Author name
-  author: The Redefine Team
+  author: goldball
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://goldball1105.github.io
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -105,7 +105,7 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: Goldball Life Road
   # Home banner subtitle
   subtitle:
     text: [] # subtitle text, array
@@ -144,7 +144,7 @@ home_banner:
     enable: false
     # Social links
     links:
-      github:  # your GitHub URL
+      github: 'https://github.com/goldball1105' # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
@@ -272,7 +272,7 @@ articles:
     # Whether to enable article recommendation
     enable: false
     # Article recommendation title
-    title: 推荐阅读
+    title: 繼續閱讀
     # Max number of articles to display
     limit: 3
     # Placeholder image
