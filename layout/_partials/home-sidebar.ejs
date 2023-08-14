@@ -1,9 +1,9 @@
-<div class="home-sidebar-container fade-in-down-animation">
+<div class="home-sidebar-container">
     <div class="sticky-container">
         <% if (theme.home.sidebar.first_item == "info") { %>
             <div class="sidebar-content">
                 <div class="avatar">
-                    <%- image_tag(url_for(theme.defaults.avatar)) %>
+                    <%- image_tag(theme.defaults.avatar) %>
                 </div>
                 <div class="author">
                     <div class="name"><%= theme.info.author || config.author %></div>
@@ -39,7 +39,7 @@
                     <% if (theme.home.sidebar.links !== null) {%>
                         <% for (let i in theme.home.sidebar.links) { %>
                             <% if (theme.home.sidebar.links[i].path === 'none') {} else {%>
-                                <a class="links" href="<%= theme.home.sidebar.links[i].path %>" target="_blank">
+                                <a class="links" href="<%= theme.home.sidebar.links[i].path %>">
                                     <% if (theme.home.sidebar.links[i].icon) { %>
                                         <i class="<%- theme.home.sidebar.links[i].icon %> icon-space"></i>
                                     <% } %>
@@ -68,7 +68,7 @@
                     <% if (theme.home.sidebar.links !== null) {%>
                         <% for (let i in theme.home.sidebar.links) { %>
                             <% if (theme.home.sidebar.links[i].path === 'none') {} else {%>
-                                <a class="links" href="<%= theme.home.sidebar.links[i].path %>" target="_blank">
+                                <a class="links" href="<%= theme.home.sidebar.links[i].path %>">
                                     <% if (theme.home.sidebar.links[i].icon) { %>
                                         <i class="<%- theme.home.sidebar.links[i].icon %> icon-space"></i>
                                     <% } %>
@@ -85,7 +85,7 @@
             <% } %>
             <div class="sidebar-content" <% if (theme.home.sidebar.links !== null || theme.home.sidebar.announcement !== null) { %> marginTop <% } %>>
                 <div class="avatar">
-                    <%- image_tag(url_for(theme.defaults.avatar)) %>
+                    <%- image_tag(theme.defaults.avatar) %>
                 </div>
                 <div class="author">
                     <div class="name"><%= theme.info.author || config.author %></div>

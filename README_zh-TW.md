@@ -1,7 +1,7 @@
 <div align="right">
-  <img src="https://img.shields.io/badge/-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-A31F34?style=for-the-badge" alt="language">
   <a title="en" href="README.md"><img src="https://img.shields.io/badge/-English-545759?style=for-the-badge" alt="english"></a>
   <a title="zh-CN" href="README_zh-CN.md">  <img src="https://img.shields.io/badge/-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-545759?style=for-the-badge" alt="简体中文"></a>
+  <img src="https://img.shields.io/badge/-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-A31F34?style=for-the-badge" alt="language">
 </div>
 
 <a href="https://redefine.ohevan.com"><img align="center" src="https://user-images.githubusercontent.com/68590232/226141917-68124e8f-fde0-4edd-b86d-c62932ec369a.png"  alt="Redefine"></a>
@@ -32,11 +32,11 @@
 
 ## 📷 屏幕截圖
 
-![redefine-1-final](https://user-images.githubusercontent.com/68590232/235559377-ac157edd-19eb-4596-9ef2-211eec0b6fe7.png)
+![redefine-1-final](https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/1c4f802b-b949-4313-8935-6ea5178be9e3)
 
-![redefine-2-final](https://user-images.githubusercontent.com/68590232/235559385-c13132ca-29c5-4b01-bd1b-e37ca500c824.png)
+![redefine-2-final](https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/bf6529a6-bce9-4388-899c-1d96325c49d6)
 
-![redefine-3-final](https://user-images.githubusercontent.com/68590232/235559394-ebf339f6-3297-485c-85cc-834eb3ea986e.png)
+![redefine-3-final](https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/33ee3d7c-189c-4b75-89c9-914b0cb63caf)
 
 
 ## 🌐 在線演示站
@@ -130,3 +130,13 @@ $ git clone https://github.com/EvanNotFound/hexo-theme-redefine.git themes/redef
 所有贊助者名單：[贊助者名單](https://github.com/EvanNotFound/hexo-theme-redefine/blob/dev/DONATION.md)
 
 再次感謝你們！
+
+## 🌟 Star 記錄
+
+[![Star History Chart](https://api.star-history.com/svg?repos=EvanNotFound/hexo-theme-redefine&type=Date)](https://star-history.com/#EvanNotFound/hexo-theme-redefine&Date)
+
+## 📢 其他
+
+如果你恰好需要雲主機，可以去 [Racknerd](https://my.racknerd.com/aff.php?aff=8346) 看看，性價比高。
+
+很多活動，比如 2核 2G 活動價一年只要 20 刀，比國內云便宜而且還沒有監管，可以用來部署各種服務。

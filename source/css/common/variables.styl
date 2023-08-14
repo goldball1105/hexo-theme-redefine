@@ -197,8 +197,8 @@ $home-banner-icons-container-background-color-dark = rgba(197, 197, 197, 0.3)
 // ========================================================================================
 // background image
 // ========================================================================================
-$home-banner-img-light = url(hexo-config('home_banner.image.light'))
-$home-banner-img-dark = url(hexo-config('home_banner.image.dark'))
+$home-banner-img-light = url(url-for(hexo-config('home_banner.image.light')))
+$home-banner-img-dark = url(url-for(hexo-config('home_banner.image.dark')))
 
 
 // ========================================================================================
@@ -214,18 +214,18 @@ if hexo-config('global.fonts.chinese.enable') {
 
 if hexo-config('global.fonts.english.enable') {
   $temp-english-font-family = hexo-config('global.fonts.english.family')
-  $english-font-family = $temp-english-font-family ? $temp-english-font-family : 'Open Sans'
+  $english-font-family = $temp-english-font-family ? $temp-english-font-family : 'Satoshi-Variable'
 } else {
-  $english-font-family = 'Open Sans', 'Noto Sans', sans-serif
+  $english-font-family = 'Satoshi-Variable', sans-serif
 }
 
-$default-font-family = Open Sans, Noto Sans, Noto Sans SC,  -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial
+$default-font-family = Satoshi-Variable, Noto Sans SC, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial
 $default-font-size = 16px
 $temp-default-article-font-size = hexo-config('articles.style.font_size')
 $temp-default-line-height = hexo-config('articles.style.line_height')
 $default-article-font-size = $temp-default-article-font-size ? convert($temp-default-article-font-size) : 16px
 $default-line-height = $temp-default-line-height ? $temp-default-line-height : 1.5
-$default-font-weight = 400
+$default-font-weight = 450
 
 // ========================================================================================
 //  light/dark mode color
